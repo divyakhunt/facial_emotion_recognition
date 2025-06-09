@@ -19,7 +19,7 @@ This project performs facial emotion recognition using a deep learning approach 
 - **Base Model**: Pretrained `ResNet50` (ImageNet weights, excluding top layer)
 - **Custom Head**:
   - Global Average Pooling
-  - Dense layer with 128 units (ReLU)
+  - Dense layer with 256 units (ReLU)
   - Output layer with Softmax activation for emotion classification
 
 ---
@@ -32,6 +32,8 @@ This project performs facial emotion recognition using a deep learning approach 
   - Rotation
   - Zoom
   - Horizontal Flip
+  - Shearing
+  - Width and Hight shifting
 
 ---
 
